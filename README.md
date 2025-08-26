@@ -2,15 +2,50 @@
 
 A new Flutter project.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Getting Started with Flutter Development
 
-A few resources to get you started if this is your first Flutter project:
+Follow these steps to set up your environment and run this project.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1. Install Flutter SDK
+1. Download the latest stable Flutter SDK:  
+   👉 https://docs.flutter.dev/get-started/install
+2. Extract it to a folder:
+   - Windows: C:\src\flutter
+   - macOS/Linux: ~/development/flutter
+3. Add Flutter to your PATH:
+   - Windows: Add C:\src\flutter\bin
+   - macOS/Linux:
+     export PATH="$PATH:$HOME/development/flutter/bin"
+4. Verify installation:
+   flutter doctor
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### 2. Install an IDE
+You can use any IDE that supports Flutter:
+- Android Studio: https://developer.android.com/studio
+- Visual Studio Code: https://code.visualstudio.com/
+
+After installing:
+- Install Flutter & Dart plugins/extensions for your IDE.
+
+---
+
+### 3. Run the App
+1. Get project dependencies:
+   flutter pub get
+2. Run the app on an emulator or a connected device:
+   flutter run
+
+---
+
+## 📚 Helpful Resources
+- Write your first Flutter app: https://docs.flutter.dev/get-started/codelab
+- Flutter Cookbook: https://docs.flutter.dev/cookbook
+- Flutter Documentation: https://docs.flutter.dev/
+
+---
+
+Happy coding! 🎉
